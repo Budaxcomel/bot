@@ -1,5 +1,0 @@
-telethon
-apscheduler
-ping3
-python-dotenv
-speedtest
