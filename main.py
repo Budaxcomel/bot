@@ -18,11 +18,11 @@ scheduler = AsyncIOScheduler()
 scheduler.start()
 
 config = dotenv_values("config.env")
-API_ID = config["API_ID"]
-API_HASH = config["API_HASH"]
-BOT_TOKEN = config["BOT_TOKEN"]
-GROUP_ID = int(config["GROUP_ID"])
-ADMIN_ID = int(config["ADMIN_ID"])
+API_ID = config["10115546"]
+API_HASH = config["366347107f54aabc951cfa9d3c2fb2ce"]
+BOT_TOKEN = config["7530211139:AAEwnLhyuthBZY_TT-W00sGOZzJi7y8wTy0"]
+GROUP_ID = int(config["-1002180487751"])
+ADMIN_ID = int(config["1358956715"])
 
 bot = TelegramClient('immanvpn', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
